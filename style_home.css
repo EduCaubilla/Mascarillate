@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#header {
+    background-color: rgb(250, 250, 250);
+}
+
+.icon_mascarilla {
+    width: 30px;
+    height: 30px;
+    filter: hue-rotate(75%);
+}
+
+#presentacion {
+    padding: 3% 0;
+}
+
+.modelo_masc1 {
+    width: 50vh;
+    height: auto;
+}
+
+#footer {
+    height: 10vh;
+    background-color: rgb(250, 250, 250);
+    color: rgb(160, 160, 160);
+}
