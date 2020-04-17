@@ -10,7 +10,12 @@ html {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.6;
+    color: rgb(140, 140, 140);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 h4 {
@@ -23,13 +28,13 @@ h4 {
 }
 
 .icon_mascarilla {
-    width: 30px;
-    height: 30px;
-    filter: hue-rotate(75%);
+    width: 40px;
+    height: 40px;
+    filter: invert(63%) sepia(13%) saturate(1164%) hue-rotate(75deg) brightness(89%) contrast(92%);
 }
 
 #presentacion {
-    padding: 3% 0;
+    padding: 2.5% 0;
 }
 
 .modelo_masc1 {
