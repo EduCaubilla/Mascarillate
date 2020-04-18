@@ -1,0 +1,264 @@
+<html lang="es">
+
+<head>
+    <!--REQUIRED META TAGS-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style_home.css">
+
+    <!--FUENTES-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Prueba checkout</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container fluid pt-2 pb-2">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="row nav_2 d-flex align-items-center">
+                        <img class="icon_mascarilla" src="imgs/Icon_mascarillate.png" alt="">
+                        <a class="navbar-brand col-6 pt-3" href="home.html">
+                        <h2> Mascarillate</h2></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="carrito.html">
+                                <i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+    </header>
+    <div class="cabecera">
+        <h1>Carrito de compras</h1>
+    </div>
+    <div class="entire-container">
+        <div class="row justify-content-between justify-content-around">
+            <div class="col-8">
+                <h3 class="envio-direccion">1. Dirección de envío</h3>
+                <div class="address-container">
+                    <div class="row">
+                        <div class="col-6">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputNombre" aria-describedby="NombreHelp" placeholder="Nombre">
+                                    <small id="NombreHelp" class="form-text text-muted">Tus datos serán tratados con seguridad.</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputApellidos" aria-describedby="ApellidosHelp" placeholder="Apellidos">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputAddress" aria-describedby="AddressHelp" placeholder="Calle y número">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputCP" aria-describedby="CPHelp" placeholder="Código postal">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputCiudad" aria-describedby="CityHelp" placeholder="Ciudad">
+                                </div>
+                            </form> 
+                        </div>
+                        <div class="col-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputPais" aria-describedby="PaisHelp" placeholder="País">
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="inputEmail" aria-describedby="EmailHelp" placeholder="Correo electrónico">
+                                </div>
+                            </form> 
+                        </div>
+                        <div class="col-6">
+                            <form>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="inputTel" aria-describedby="TelHelp" placeholder="Número móvil">
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="envio-direccion payment">2. Pago</h3>
+                <div class="payment-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputDireccion-factura" aria-describedby="FacturaHelp" placeholder="País o región de facturación">
+                                    <small id="FacturaHelp" class="form-text text-muted">No compartiremos tu dirección con nadie más.</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row payment-method">
+                        <div class="col-12">
+                            <h5>Selección del método de pago</h5>
+                        </div>
+                    </div>
+                    <div class="row payment-type">
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="option1" id="CreditCard">
+                                <label class="form-check-label" for="CreditCard">
+                                  Tarjeta de crédito o débito
+                                </label>
+                              </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="option2" id="Paypal">
+                                <label class="form-check-label" for="Paypal">
+                                  Paypal
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row payment-method">
+                        <div class="col-12">
+                            <h6>Añadir datos de la tarjeta</h6>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputTCnumber" aria-describedby="TCHelp" placeholder="Número de la tarjeta" maxlength="18">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="inputDate" aria-describedby="DateHelp" placeholder="Caducidad" data-shortname="expDate">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-3">
+                            <form>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="inputCV" aria-describedby="CVHelp" placeholder="Cód de seguridad" maxlength="3"> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col align-self-end">
+                        <button type="button" class="btn btn-success">Continuar</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-4">
+            <h2 class="resumen">Resumen</h2>
+            <div class="resumen-container">
+                <div class="row justify-content-between" id="subtotal">
+                    <div class="col-6">
+                        Subtotal
+                    </div>
+                    <div class="col-6" id="precio1">
+                        10€
+                    </div>
+                </div>
+                <div class="row justify-content-between justify-content-around">
+                    <div class="col-6" id="envio">
+                        Envío
+                    </div>
+                    <div class="col-6" id="precio2">
+                        5€
+                    </div>
+                </div>
+                <div class="row justify-content-between justify-content-around">
+                    <div class="col-6" id="total">
+                        TOTAL
+                    </div>
+                    <div class="col-6" id="precio3">
+                        15€
+                    </div>
+                </div>
+
+                <h3 class="cesta">Tu cesta</h3>
+                <h5 id="recibelo">Recíbelo en 3 días</h5>
+                <div class="cesta-container">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="imgs/mascarilla1.jpg" alt="" class="img-thumbnail">
+                        </div>
+                        <div class="col-8 description">
+                            <p>Mascarilla de tela esterilizada unisex</p>
+                            <p>Modelo: GD7649-735</p>                           
+                            <p>Talla: única</p>                         
+                            <p>Color: azul/blanco</p>              
+                            <p>Cantidad: 1 pieza @ 1.50€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 text-center">
+                    <p>Copyright Mascarillate 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/2f0e38e9f8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
