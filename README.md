@@ -1,9 +1,12 @@
 # Mascarillate
 Proyecto de e-commerce. Venta de mascarillas
 
+## Estructura
+1. Home - index.html
+2. Productos - index2.html
+3. Carrito - Checkout.html
 
-Home - index.html
-Productos - index2.html
-Carrito - Checkout.html
+4. css - styles.css
+&nbsp;
 
-css - styles.css
+Comprueba el resultado en https://proyecto_mascarillate.imfast.io
